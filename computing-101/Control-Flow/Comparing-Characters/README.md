@@ -25,3 +25,6 @@ Trong challenge này:
 ---
 
 <img width="1705" height="297" alt="image" src="https://github.com/user-attachments/assets/fcfd91f6-e9c1-478a-9036-fd9897556e9b" />
+### Chú ý:
+
+- Nếu dùng `rdi` lưu `[rsp+16]` thì khi lưu `ZF` vào dil bị sai 8bit cuối sai `argv[1]`
