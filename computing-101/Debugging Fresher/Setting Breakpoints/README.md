@@ -32,4 +32,5 @@ Sử dụng:
 display/8gx $rsp
 ```
 Display dùng để tự in ra $rsp sau mỗi lệnh như nexti, stepi, ...
-Khi thấy giá trị random và lần lên là sau call read có thể ko phải do read sinh ra mà do khoảng quét rsp hơi ít nên có thể xuất hiện từ trước mà ko quét đến
+
+Khi thấy giá trị random và lần lên là sau lệnh call read, có thể ko phải do read sinh ra mà do khoảng quét rsp hơi ít nên có thể xuất hiện từ trước mà ko quét đến
